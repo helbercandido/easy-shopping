@@ -1,0 +1,172 @@
+* {
+    font-family: "poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+
+    margin: 44px 0 120px 76px;
+
+}
+
+.link-header {
+    font-weight: 400px;
+    font-size: 14px;
+    line-height: 21px;
+    color: #17233D;
+    cursor: pointer;
+    margin-right: 23px;
+
+}
+
+.botao {
+
+    background: #6FBF44;
+    border-radius: 10px;
+    width: 124px;
+    height: 51px;
+    border: none;
+    cursor: pointer;
+    border: 1px solid #4CB538;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: #FFFFFF;
+
+
+
+}
+
+.logo {
+    display: inline-block;
+    width: 595.18px;
+    height: 500px;
+    margin-left: 90px;
+
+}
+
+section {
+
+    position: absolute;
+    margin-left: 800px;
+    bottom: 10px;
+
+}
+
+h1 {
+
+    width: 582px;
+    height: 164px;
+    top: 342px;
+    left: 801px;
+
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 82px;
+    color: #161A49;
+
+}
+
+p {
+
+
+    height: 99px;
+    top: 553px;
+    left: 801px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    color: #4B505A;
+    width: 493px;
+    margin-top: 32px;
+    margin-bottom: 65px;
+
+
+}
+
+.button-main {
+
+    width: 112px;
+    height: 27px;
+    border: none;
+    cursor: pointer;
+    background: none;
+
+
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    color: #6FBF44;
+
+
+
+}
+
+@media (max-width: 1100px) {
+
+    header {
+        margin: 30px 0 30px 40px;
+    }
+
+    .link-header {
+        font-weight: 200px;
+        font-size: 15px;
+        line-height: 12px;
+        margin-right: 5px;
+    }
+
+    section {
+
+        display: inline-block;
+        margin-bottom: 400px;
+        margin-left: 60px;
+
+    }
+
+    h1 {
+
+        width: 278px;
+        height: 60px;
+        margin: 20px 0 40px 10px;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 30px;
+        color: #161A49;
+        text-align: center;
+    }
+
+    p {
+        width: 304px;
+        height: 165px;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 33px;
+        color: #4B505A;
+        margin: 0px 10 40px 10px;
+        text-align: center;
+
+    }
+
+    .button-main {
+        text-align: center;
+        width: 112px;
+        height: 27px;
+    }
+
+
+    .logo {
+        display: inline-block;
+        width: 312px;
+        height: 288px;
+        margin-top: 450px;
+        margin-left: 40px;
+
+
+    }
+
+
+}
